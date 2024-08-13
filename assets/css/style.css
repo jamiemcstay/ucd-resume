@@ -2,6 +2,16 @@
 
 /*--------------------------------------------Colors*/
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .bg-color-personal-info {
     background-color: #f4f4f4;
 }
@@ -174,13 +184,17 @@ header {
     height: 120px;
 }
 
+
+
+
 /*--------------------------------------------footer*/
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    /* min-height: 120px; */
     margin: 0;
+    flex: 1;
 }
 
 .cv-pdf i {
